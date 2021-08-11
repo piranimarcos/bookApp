@@ -18,7 +18,7 @@ class UserInput {
     email!: string
 
     @Field()
-    @Length(8, 254)
+    @Length(6, 254)
     password!: string
 
 }
